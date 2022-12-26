@@ -1,0 +1,56 @@
+body {
+  font-family: sans-serif;
+  background-color: #b4caaf;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #eef5f5;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.cellStyle {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 30px;
+  font-weight: 800;
+  
+}
+
+
+.tryAgain {
+  cursor: pointer;
+  margin: 0 50px;
+  border-radius: 7px;
+  background: rgb(241, 239, 239);
+  color: rgb(36, 93, 52);
+  padding: 10px;
+  font-weight: 700;
+}
